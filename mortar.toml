@@ -5,13 +5,19 @@ oarg = [
     "-std=c++17",
     "-fopenmp",
     "`pkg-config guile-2.2 --cflags --libs`",
+    "-Lsrc/rs/target/release"
+]
+l = [
+  "rs"
 ]
 com = "g++"
 
 [_default]
+before = "cd src/rs; cargo build --lib --release"
 inherits = "default"
  
 [_debug]
+before = "cd src/rs; cargo build --lib --release"
 inherits = "default"
 oarg = [
     "-g",

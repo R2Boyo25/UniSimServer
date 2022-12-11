@@ -1,5 +1,8 @@
+
 build
 include
 uss
 *~
 \#*\#
+src/rs/target
+src/rs/Cargo.lock
