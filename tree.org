@@ -1,0 +1,56 @@
+- Dimensions
+  - World 
+    - Tiles
+      - Machines
+        - Energy
+      - Structures
+      - Water
+        - Power generation
+        - Weather?
+      - Heat
+    - Entities
+      - Animals
+      - Sapients
+        - Consciousnesses
+        - Commandable with a controller
+        - Tasks
+        - Skills 
+        - Health
+          - Modifiers
+        - Equipment
+          - Modifiers
+          - Special Abilities
+            - Jetpacks
+            - Helicopter things
+      - Vehicles
+        - Perform actions
+        - Move quickly
+        - Controllable with a controller
+      - Plants
+        - Farming
+    - Resources
+      - Foods
+        - Ingredients
+          - Meat for each sapient species
+          - Meat for each animal species
+          - Plants
+        - Skill
+      - Materials
+      - Chemistry
+      - Metallurgy
+    - Structures
+      - Contain tiles
+    - Alliances
+      - Factions
+        - Colonies
+          - Contain Animals, Sapients, Vehicles
+- Chat
+  - Global
+  - Area (Within 500 blocks)
+  - Whisper
+  - Faction
+  - Colony
+  - Dimension
+  - Alliance
+- Religion
+  - Control morals and values

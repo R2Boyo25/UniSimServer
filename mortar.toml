@@ -1,0 +1,23 @@
+[default]
+out = "uss"
+oarg = [
+    "-Ofast",
+    "-std=c++17",
+    "-fopenmp",
+    "`pkg-config guile-2.2 --cflags --libs`",
+]
+com = "g++"
+
+[_default]
+inherits = "default"
+ 
+[_debug]
+inherits = "default"
+oarg = [
+    "-g",
+]
+
+[run]
+type = "command"
+target = "_debug"
+command = "$EXECUTABLE"
