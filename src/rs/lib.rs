@@ -5,7 +5,7 @@
 //     println!("{}", "This should do something");
 // }
 
-// Example for how to define one with integer arguments
+// Example for how to define one with an integer argument and integer return type
 //
 // #[no_mangle]
 // pub extern "C" fn rs_int_test(a: i32) -> i32 {

@@ -12,7 +12,7 @@
 //  rs_test(); 
 //
 
-// Example with an integer argument ad integer return type
+// Example with an integer argument and integer return type
 //
 // extern "C" int rs_int_test(int a);
 //
