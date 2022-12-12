@@ -24,6 +24,11 @@ oarg = [
     "-g",
 ]
 
+[gdb]
+type = "command"
+target = "_debug"
+command = "gdb $EXECUTABLE -ex run -ex continue"
+
 [run]
 type = "command"
 target = "_debug"
