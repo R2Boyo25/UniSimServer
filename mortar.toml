@@ -5,7 +5,8 @@ oarg = [
     "-std=c++17",
     "-fopenmp",
     "`pkg-config guile-2.2 --cflags --libs`",
-    "-Lsrc/rs/target/release"
+    "-Lsrc/rs/target/release",
+    "-Wall"
 ]
 l = [
   "rs"

@@ -1,10 +1,9 @@
 #include <iostream>
 #include "../globals.hpp"
+#include <libguile.h>
 
 void* networking_thread(void* DATA) {
-  OUTPUT_MUTEX.lock();
-  std::cout << "I'm the network thread!" << std::endl;
-  OUTPUT_MUTEX.unlock();
-
+  scm_c_eval_string("(display \"yes\n\")");
+  
   return NULL;
 }
