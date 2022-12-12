@@ -1,10 +1,11 @@
 #include <iostream>
 #include "../globals.hpp"
 
+extern "C" void rs_network(const char* bind);
+
 void* networking_thread(void* DATA) {
-  OUTPUT_MUTEX.lock();
-  std::cout << "I'm the network thread!" << std::endl;
-  OUTPUT_MUTEX.unlock();
+  const char* bind = "0.0.0.0:6028";
+  rs_network(bind);
 
   return NULL;
 }

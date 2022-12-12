@@ -11,3 +11,5 @@
 // pub extern "C" fn rs_int_test(a: i32) -> i32 {
 //     a + 1
 // }
+
+mod network;
