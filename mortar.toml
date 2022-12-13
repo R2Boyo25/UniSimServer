@@ -1,4 +1,5 @@
 [default]
+before = "cd src/rs; cargo build --lib --release"
 out = "uss"
 oarg = [
     "-Ofast",
@@ -11,13 +12,14 @@ l = [
   "rs"
 ]
 com = "g++"
+relink = [
+"src/rs/.*\\.rs"
+]
 
 [_default]
-before = "cd src/rs; cargo build --lib --release"
 inherits = "default"
  
 [_debug]
-before = "cd src/rs; cargo build --lib --release"
 inherits = "default"
 oarg = [
     "-g",
