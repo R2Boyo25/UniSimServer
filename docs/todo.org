@@ -1,0 +1,16 @@
+ - Fire
+ - Explosions
+ - Conciousness (stores social & mental stuff for sapients and animals)
+ - Entities
+   - Vehicles
+   - Sapients
+   - Animals
+ - Colonies
+ - Factions
+ - Alliances
+ - Terrain
+ - Pathfinding subsystem
+ - Guile modding (very important)
+ - Energy
+ - Water physics
+ - Weather

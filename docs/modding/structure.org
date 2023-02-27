@@ -1,0 +1,8 @@
+Each mod has a structure of
+- gamedir/mods
+  - mod_name
+    - resources
+      - common
+      - client_name // Each client can have custom files placed here
+    - scripts
+    - mod.scm
