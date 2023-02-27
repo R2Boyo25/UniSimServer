@@ -4,7 +4,7 @@ oarg = [
     "-Ofast",
     "-std=c++17",
     "-fopenmp",
-    "`pkg-config guile-2.2 --cflags --libs`",
+    "`pkg-config guile-3.0 --cflags --libs`",
     "-Lsrc/rs/target/release"
 ]
 l = [

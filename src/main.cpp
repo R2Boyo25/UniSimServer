@@ -30,5 +30,7 @@ void* guile_main(void* DATA) {
 }
 
 int main(int argc, char**argv) {
+  GAME_RUN = true;
+  
   scm_with_guile(*guile_main, NULL);
 }
